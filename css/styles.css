@@ -1,0 +1,168 @@
+body,
+html {
+    background-color: #f5f5f5;
+    min-width: 1490px;
+    margin: 0;
+    padding: 0;
+}
+
+/* LEFT-COLUMN
+===================== */
+
+.left-column {
+    float: left;
+    width: 470px;
+    margin-right: 20px;
+}
+
+.form {
+    width: 962px;
+    margin-top: 63px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.title-text {
+    margin-bottom: 33px;
+    font-family: Arial;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.todos-list {
+    max-width: 470px;
+    padding-top: 45px;
+    background-color: #f5f5f5;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8993ad;
+}
+
+.todo {
+    width: 470px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.subtitle-text {
+    position: relative;
+    margin-top: 18px;
+    margin-bottom: 16px;
+    margin-left: 20px;
+    padding-top: 16px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.delete {
+    background-image: url('../img/deleteTodo.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 20px;
+    left: 170px;
+}
+
+.arrow:hover {
+    transform: rotate(90deg);
+}
+
+.arrow {
+    background-image: url('../img/arrow.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 22px;
+    left: 420px;
+}
+
+.todo-text {
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 65px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 400;
+    color: #8993ad;
+}
+
+.desc-text {
+    padding-top: 10px;
+    padding-bottom: 65px;
+    padding-left: 20px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #8993ad;
+}
+
+.inner {
+    border-bottom-style: solid;
+    border-bottom-color: #f7f7f7;
+    border-bottom-width: 1px;
+}
+
+/* RIGHT-COLUMN
+===================== */
+
+.right-column {
+    float: left;
+    width: 470px;
+}
+
+.create-todo {
+    width: 470px;
+    background-color: white;
+}
+
+.todo-name {
+    padding-top: 29px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #8993ad;
+}
+
+input {
+    width: 390px;
+    height: 45px;
+    background-color: #fcfcfc;
+    border: 1px solid #ebebeb;
+    outline: none;
+    margin-left: 40px;
+    margin-bottom: 28px;
+}
+
+.desc {
+    padding-bottom: 10px;
+    padding-left: 40px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #8993ad;
+}
+
+.todo-desc {
+    width: 390px;
+    height: 229px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    background-color: #fcfcfc;
+    border: 1px solid #ebebeb;
+    outline: none;
+}
+
+.changeButton {
+    margin-bottom: 37px;
+    margin-left: 40px;
+    padding-top: 20px;
+    padding-right: 55px;
+    padding-bottom: 20px;
+    padding-left: 55px;
+    background-color: #2174fd;
+    color: #ffffff;
+    border: 0;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: normal;
+}

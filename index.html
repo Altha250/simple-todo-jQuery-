@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список дел</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <section>
+        <div class="form">
+            <!-- LEFT COLUMN -->
+            <div class="left-column">
+                <div class="title-text">Список дел:</div>
+                <div class="todos-list">Список пуст...</div>
+                <div class="todos">
+                    <div class="todo"></div>
+                </div>
+
+            </div>
+        </div>
+        <!-- /.LEFT COLUMN -->
+        <!-- RIGHT COLUMN -->
+        <div class="right-column">
+            <div class="title-text">Добавить новое дело</div>
+            <div class="create-todo">
+                <div class="todo-name">* Название</div>
+                <input type="text" required name="name">
+                <div class="desc">* Описание</div>
+                <textarea class="todo-desc" required></textarea>
+                <button class="changeButton">Добавить дело</button>
+            </div>
+        </div>
+        <!-- /.RIGHT COLUMN -->
+        </div>
+    </section>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
